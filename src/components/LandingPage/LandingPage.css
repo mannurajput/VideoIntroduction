@@ -1,0 +1,19 @@
+h4 {
+    color: #252525;
+}
+
+.start_Button {
+    background-color: #33B0CA;
+    font-size: 16px !important;
+    border: none !important;
+    color: #FAFAFA;
+    padding: 10px 42px;
+    margin: auto;
+    /* This will center the button horizontally */
+    display: block;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.start_Button:hover {
+box-shadow: 0 0 5px #616161;
+}

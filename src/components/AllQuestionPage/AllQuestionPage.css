@@ -1,0 +1,348 @@
+.hhome,
+.dropbtn,
+.dropbtn1 {
+    width: -webkit-fill-available !important;
+}
+
+
+
+.mnf-logo-navbar{
+    width:150px !important;
+    margin-left: -2.75rem !important;
+}
+
+/* styles.css */
+.contain {
+    position: absolute;
+    right: 48px;
+    width: 42px;
+    /* 32px for rectangle + 10px for line */
+    height: 10px;
+}
+
+.rectangle {
+    width: 32px;
+    height: 10px;
+    background-color: #33b0ca;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 10px;
+    height: 1px;
+    background-color: #33b0ca;
+
+}
+
+#navi-list1 {
+    display: block;
+    position: fixed;
+    top: 55px !important;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+@media(max-width:1230px) {
+    #navi-list1 {
+        display: block;
+        position: fixed;
+        top: 75px !important;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        padding: 10px;
+        z-index: 100;
+    }
+}
+
+/* Add this CSS to your stylesheet or in the head of your HTML file */
+.blur-overlay {
+    position: absolute;
+    top: 25px;
+    border-radius: 10px;
+    left: 298px;
+    width: 885px;
+    height: 22%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    /* Adjust the values of rgba for the desired black shadow effect */
+}
+
+/* Add this CSS to your stylesheet or in the head of your HTML file */
+.video-container {
+    width: 887px;
+    height: 462px;
+    background-color: black;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.drag-and-drop-container {
+    border: 2px solid #BFBFBF;
+    border-radius: 10px;
+    padding: 28px;
+    width: 268px;
+    margin-left: 66px;
+    height: 135px;
+
+}
+
+.drag-over {
+    border-color: #007bff;
+    /* Change to your desired highlight color */
+}
+
+.drag-and-drop-container p {
+    margin: -11px;
+}
+
+/* Additional styling for the file input if needed */
+input[type='file'] {
+    display: none;
+    /* Hide the default file input */
+}
+
+.recording-button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    border: none;
+    outline: none;
+    border-radius: 50% !important;
+    background: #F7F7F7  !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+.popupzz {
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    background-color: #FBFBFB;
+    width: 486px;
+    /* Increase the width as needed */
+    padding: 40px;
+    height: 322px;
+    z-index: 1;
+}
+
+.popup-contenttt {
+    text-align: center;
+}
+
+/* Style for the form group container */
+.FormGroupContainer {
+    display: flex;
+    align-items: center;
+    border: 2px solid #BFBFBF;
+    padding: 10px;
+    border-radius: 15px;
+    width: 268px;
+    margin-left: 66px;
+}
+
+
+
+
+/* Style for the label */
+.FormLabel {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style for the select control container */
+.FormSelectContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* This will make the select control take up the remaining space */
+}
+
+ .uploaded_image  {
+    /* width: 91px;
+    height: 49px; */
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: absolute;
+    left: 90%;
+    top:12%
+}
+ .uploaded_image img {
+     width: 91px;
+     height: 49px;
+    }
+
+.footer{
+     bottom:-100px !important;
+ }
+.uploaded_image span {
+    position: absolute;
+    left: 15%;
+    font-size: 10px;
+    color: #5E5E5E
+}
+   #navi-li__button6 {
+       background: #33B0CA !important;
+       color: #fff !important;
+       border: 0.2px solid rgba(128, 128, 128, 0.4) !important;
+   }
+   .dropbtn viwers{
+    background: #33B0CA !important;
+        color: #fff !important;
+        border: 0.2px solid rgba(128, 128, 128, 0.4) !important;
+   }
+/* Style for the select control */
+.FormSelectControl {
+    width: 65px !important;
+    /* Decrease the width as needed */
+    border: 1px solid #ccc;
+    background-color: #F4F4F4 !important;
+    margin-left: 37px !important;
+    text-align: center !important;
+    color: #33b0ca;
+    padding: 5px;
+    /* Add padding for better aesthetics */
+}
+
+button:disabled {
+    background-color: #616161 !important;
+    color: #FAFAFA !important;
+}
+
+/* Style for the options within the select control */
+.FormSelectControl option {
+    text-align: center;
+    background-color: #33b0ca;
+    /* Set the background color to red */
+    color: white;
+    /* Set the text color to white for better visibility */
+}
+
+/* Style for the "Sec" text */
+
+
+
+option {
+    color: #33b0ca;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-intro-container {
+    height: 76vh !important;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-intro-content {
+    width: 1159px;
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera-window {
+    /* /* border: 2px solid red; */
+    width: 887px;
+    height: 462px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.8) inset;
+}
+
+.bottom-btns-container {
+    width: 844px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-left: 65px;
+}
+
+.bottom-btns-container div:nth-child(1) {
+    display: flex;
+    gap: 12px;
+}
+
+.bottom-btns-container div:nth-child(2) {
+    transform: translateX(54px);
+}
+
+.question {
+    transform: translate(20px, 30px);
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.play-pause-btn {
+    text-align: center;
+    transform: translateY(-13px);
+}
+
+.left-bar-camera-container {
+    display: flex;
+    gap: 20px;
+}
+
+.video-intro-heading {
+    font-size: 24px;
+}
+
+.left-bar {
+    transform: translate(-71px, -16px);
+}
+
+
+.upload-img-btn{
+    background: #33b0ca !important;
+        color: white !important;
+        padding: 6px 8px !important;
+        border-radius: 6px !important;
+}
+.next-btn {
+    background: #33b0ca !important;
+    color: white !important;
+    padding: 6px 8px !important;
+    border-radius: 6px !important;
+}
+.retake-btn {
+    background: #33b0ca !important;
+    color: white !important;
+    padding: 6px 8px !important;
+    border-radius: 6px !important;
+}
+.play-btn {
+    background: #33b0ca !important;
+    color: white !important;
+    padding: 6px 8px !important;
+    border-radius: 6px !important;
+}
+
+

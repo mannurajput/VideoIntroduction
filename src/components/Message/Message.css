@@ -1,0 +1,60 @@
+/* Message.css */
+
+/* Center the entire Message component */
+.containerm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* Set height to the viewport height for vertical centering */
+}
+
+/* Style for the Message content */
+.message-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Stack child elements vertically */
+    align-items: center;
+    /* Center children horizontally */
+    position: relative;
+    /* Make it relative for absolute positioning of child elements */
+}
+
+img {
+    width: 301px;
+    height: 274px;
+    /* Add any other styles you need for the image */
+    margin: auto;
+    /* Center the image horizontally */
+}
+
+.p_message {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #252525;
+    font-weight: 400;
+    width: 800px;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    /* Make it relative for absolute positioning of child buttons */
+    margin-top: 130px;
+    /* Add margin from the top */
+}
+
+.action-button {
+    color: #f7f7f7;
+    background: #33b0ca;
+    border-radius: 8px;
+    padding: 4px 19px;
+    border: none;
+}
+.action-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* Box shadow on hover */
+}

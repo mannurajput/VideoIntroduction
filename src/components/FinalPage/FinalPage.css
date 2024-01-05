@@ -1,0 +1,126 @@
+.container-fluid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-size: cover;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+/* video {
+    width: 728px;
+    height: 474px;
+} */
+
+.buttons-container {
+    display: flex;
+    margin-top: 10px;
+    /* Same width as the video */
+}
+
+
+
+.button_final {
+    padding: 4px 19px !important;
+    border-radius: 6px;
+    color: #F7F7F7;
+    background-color:  #33B0CA !important;
+    cursor: pointer;
+}
+.button_final:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* Box shadow on hover */
+}
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    /* Display checkboxes vertically */
+}
+.button_final:disabled {
+    background-color: #616161 !important;
+    color: #FAFAFA !important;
+}
+.popup {
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    background-color:#FBFBFB;
+    width: 376px;
+    /* Increase the width as needed */
+    padding: 40px;
+    height: 263px;
+    z-index: 1;
+}
+
+.popup-content {
+    text-align: center;
+}
+.checkbox-container{
+    display: block;
+    border: 1px solid  #EAEAEA;
+    /* Add your desired border color and style */
+    padding: 12px;
+    /* Add padding for better appearance */
+    margin-bottom: 10px;
+    /* Adjust as needed */
+    border-radius: 8px;
+}
+.close-button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+
+    color: white;
+ 
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.close-icon {
+     background-color: #33B0CA;
+    border: 1px solid #33B0CA;
+        border-radius: 50%;
+        padding: 6px 9px;
+    position: absolute;
+  
+    top: -15px;
+        right: -15px;
+}
+/* .close-icon:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    /* Box shadow on hover */
+
+.checkbox-container label {
+    display: block;
+    /* Display checkboxes and labels as blocks to separate them */
+    margin-bottom: 10px;
+    /* Add some spacing between checkboxes and labels */
+    font-size: 18px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    transform: scale(2);
+    /* Increase the size of checkboxes */
+    margin-right: 10px;
+    /* Add some spacing between checkboxes and labels */
+}
+
+
+
+
+.user_nameee{
+    color: #252525;
+    font-size: 24px !important;
+}
